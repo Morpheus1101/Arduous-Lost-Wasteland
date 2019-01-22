@@ -1,0 +1,122 @@
+{
+"minecraft:cobblestone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:limestone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:marble:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:amphibolite:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:shale:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:dolomite:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:chert:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+    "mineralogy:gypsum:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+    ],
+  "minecraft:gravel:0": [
+    {
+      "stack": {
+        "name": "minecraft:sand",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:sand:0": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:block_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ]								
+}

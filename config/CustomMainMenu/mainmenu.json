@@ -1,0 +1,170 @@
+{
+  "images": {
+    "title": {
+      "image": "custommainmenu:textures/gui/minecraft.png",
+      "posX": -130,
+      "posY": -75,
+      "width": 256,
+      "height": 256,
+      "alignment": "top_center"
+    }
+  },
+  "buttons": {
+    "singleplayer": {
+      "text": "Singleplayer",
+      "posX": -100,
+      "posY": 48,
+      "width": 200,
+      "height": 20,
+      "texture": "mainmenu:longbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "Multiplayer",
+      "posX": -100,
+      "posY": 72,
+      "width": 200,
+      "height": 20,
+      "texture": "mainmenu:longbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+    "mods": {
+      "text": "Public Server",
+      "posX": -100,
+      "posY": 96,
+      "width": 200,
+      "height": 20,
+      "texture": "mainmenu:longbutton.png",
+      "action": {
+        "type": "connectToServer",
+        "ip": ""
+      }
+    },
+    "server": {
+      "text": "Mods",
+      "posX": -100,
+      "posY": 120,
+      "width": 98,
+      "height": 20,
+      "texture": "mainmenu:shortbutton.png",
+      "color": 10168559,
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "discord": {
+      "text": "Arduous Discord",
+      "posX": 2,
+      "posY": 120,
+      "width": 98,
+      "height": 20,
+      "texture": "mainmenu:shortbutton.png",
+      "color": 10168559,
+      "action": {
+        "type": "openLink",
+        "link": "http://discord.me/matrix"
+      }
+    },
+    "options": {
+      "text": "Options",
+      "posX": -100,
+      "posY": 144,
+      "width": 98,
+      "height": 20,
+      "texture": "mainmenu:shortbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "quit": {
+      "text": "Quit",
+      "posX": 2,
+      "posY": 144,
+      "width": 98,
+      "height": 20,
+      "texture": "mainmenu:shortbutton.png",
+      "action": {
+        "type": "quit"
+      }
+    },
+    "language": {
+      "text": "",
+      "posX": -44,
+      "posY": 2,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_right",
+      "texture": "mainmenu:language.png",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+    "issuetracker": {
+      "text": "",
+      "tooltip": " Tell us what we need to fix. ",
+      "posX": -66,
+      "posY": 2,
+      "width": 20,
+      "height": 20,
+      "texture": "mainmenu:issue.png",
+      "color": 0,
+      "alignment": "top_right",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/Morpheus1101/Arduous-Lost-Wasteland/issues"
+      }
+    },
+    "refresh": {
+      "text": "",
+      "tooltip": "Reloads the Mainmenu",
+      "posX": -22,
+      "posY": 2,
+      "width": 20,
+      "height": 20,
+      "alignment": "top_right",
+      "texture": "mainmenu:refresh.png",
+      "action": {
+        "type": "refresh"
+      }
+    }
+  },
+  "labels": {
+    "mojang": {
+      "text": "Copyright Mojang AB",
+      "posX": -106,
+      "posY": -10,
+      "color": -1,
+      "alignment": "bottom_right"
+    },
+    "github":{
+    "text":"web:https://raw.githubusercontent.com/Morpheus1101/Arduous-Lost-Wasteland/master/latestversion.txt",
+    "posX" : 2,
+    "posY" : 0,
+    "color" : -1,
+    "alignment": "top_left"
+    },
+    "local":{
+    "text":"v1.0.0",
+    "posX" : 0,
+    "posY" : 0,
+    "color" : -1,
+    "alignment": "bottom_left"
+    }
+  },
+  "other": {
+        "background":
+        {
+            "image" : "mainmenu:background.png",
+            "mode" : "fill"
+        }
+    }
+}

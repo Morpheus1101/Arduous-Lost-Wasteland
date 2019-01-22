@@ -1,0 +1,57 @@
+[
+  {
+    "fluidName": "water",
+    "input": {
+      "name": "exnihilocreatio:block_dust",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:clay",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "minecraft:redstone",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:netherrack",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "minecraft:glowstone_dust",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:end_stone",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "witchwater",
+    "input": {
+      "name": "minecraft:sand",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:soul_sand",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "appliedenergistics2:material",
+      "meta": 45
+    },
+    "output": {
+      "name": "appliedenergistics2:sky_stone_block",
+      "meta": 0
+    }
+  }
+]
