@@ -335,6 +335,7 @@ natura:babyheatscarspider
 natura:nitrocreeper
 thermaldynamics:transport
 p455w0rdslib:sitting_entity
+coroutil:bat_smart
 draconicevolution:persistentitem
 draconicevolution:dragonheartitem
 draconicevolution:chaosguardian

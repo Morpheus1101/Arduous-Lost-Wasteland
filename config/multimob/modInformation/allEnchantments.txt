@@ -41,6 +41,7 @@ exnihilocreatio:sieve_fortune
 exnihilocreatio:sieve_luck_of_the_sea
 tombstone:shadow_step
 tombstone:soulbound
+twistedtweaks:galvanised
 woot:headhunter
 cofhcore:holding
 cofhcore:insight

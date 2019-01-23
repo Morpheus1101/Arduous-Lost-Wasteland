@@ -49,6 +49,7 @@ tombstone:feather_fall
 tombstone:purification
 tombstone:true_sight
 tombstone:exorcism
+twistedtweaks:acid_burn
 lycanitesmobs:lifeleak
 lycanitesmobs:staticaura
 lycanitesmobs:penetration
