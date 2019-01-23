@@ -3,34 +3,28 @@
 
 print("Initializing 'ThermalExpansion.zs'...");
 
-//mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:24>, null, 0);
-
-//mods.thermalexpansion.Compactor.removeGearRecipe(<thermalfoundation:material:24>);
-
-
-
 #dyanmos
 recipes.remove(<thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.addShaped(<thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}),
+recipes.addShaped(<thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), 
 [[null, <thermalfoundation:material:802>, null], [<ore:ingotCopper>, <forestry:thermionic_tubes>, <ore:ingotCopper>], [<ore:gearCopper>, <thermalfoundation:material:514>, <ore:gearCopper>]]);
 
 recipes.remove(<thermalexpansion:dynamo:1>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.addShaped(<thermalexpansion:dynamo:1>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}),
-[[null, <extracells:storage.component:4>, null],
-[<ore:ingotTin>, <forestry:thermionic_tubes:1>, <ore:ingotTin>],
+recipes.addShaped(<thermalexpansion:dynamo:1>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), 
+[[null, <extracells:storage.component:4>, null], 
+[<ore:ingotTin>, <forestry:thermionic_tubes:1>, <ore:ingotTin>], 
 [<ore:gearTin>, <thermalfoundation:material:514>, <ore:gearTin>]]);
 
 
 recipes.remove(<thermalexpansion:dynamo:2>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.addShaped(<thermalexpansion:dynamo:2>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}),
-[[null, <extracells:storage.component:4>, null],
-[<ore:ingotTin>, <forestry:thermionic_tubes:1>, <ore:ingotTin>],
+recipes.addShaped(<thermalexpansion:dynamo:2>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), 
+[[null, <extracells:storage.component:4>, null], 
+[<ore:ingotTin>, <forestry:thermionic_tubes:1>, <ore:ingotTin>], 
 [<ore:gearTin>, <thermalfoundation:material:514>, <ore:gearTin>]]);
 
 recipes.remove(<thermalexpansion:dynamo:3>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.addShaped(<thermalexpansion:dynamo:3>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}),
-[[null, <libvulpes:productdust>, null],
-[<ore:ingotBronze>, <forestry:thermionic_tubes:2>, <ore:ingotBronze>],
+recipes.addShaped(<thermalexpansion:dynamo:3>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), 
+[[null, <libvulpes:productdust>, null], 
+[<ore:ingotBronze>, <forestry:thermionic_tubes:2>, <ore:ingotBronze>], 
 [<ore:gearBronze>, <thermalfoundation:material:514>, <ore:gearBronze>]]);
 
 #energy cell Upgrades
@@ -57,8 +51,8 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:dye> *1, <thermalfou
 #Adjust Sawmill Recipe
 recipes.remove(<thermalexpansion:machine:2>);
 recipes.addShaped(<thermalexpansion:machine:2>,
-[[null, <thermalfoundation:material:24>, null],
-[<advancedrocketry:sawbladeiron>, <thermalexpansion:frame>, <advancedrocketry:sawbladeiron>],
+[[null, <thermalfoundation:material:24>, null], 
+[<advancedrocketry:sawbladeiron>, <thermalexpansion:frame>, <advancedrocketry:sawbladeiron>], 
 [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 #pulveriser for use with Lostcities Plains Only

@@ -25,5 +25,5 @@ recipes.addShaped(<appliedenergistics2:material:15>,
 recipes.addShaped(<appliedenergistics2:material:13>,
 [[<thermalfoundation:material:357>, <appliedenergistics2:material:5>, <thermalfoundation:material:357>], [<appliedenergistics2:material:5>, <minecraft:iron_block>, <appliedenergistics2:material:5>], [<thermalfoundation:material:357>, <appliedenergistics2:material:5>, <thermalfoundation:material:357>]]);
 
-#Silicon from Sand
-mods.thermalexpansion.Pulverizer.addRecipe(<appliedenergistics2:material:5>, <minecraft:sand>, 750, <appliedenergistics2:material:5>, 5);
+
+

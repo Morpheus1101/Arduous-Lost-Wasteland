@@ -6,6 +6,7 @@
     "healthmultiply": 2,
     "damagemultiply": 2,
     "speedmultiply": 1,
+	"maxcount":50,
     "armorhelmet": "minecraft:iron_helmet"
 	},
   {
