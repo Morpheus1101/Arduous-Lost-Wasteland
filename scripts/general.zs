@@ -18,26 +18,6 @@ recipes.addShaped(<forestry:fabricator>,
 [<minecraft:glass>, <forestry:hardened_machine>, <minecraft:glass>], 
 [<minecraft:gold_ingot>, <ironchest:iron_chest:2>, <minecraft:gold_ingot>]]);
 
-#Adv Rocketry 
-
-#HoloProjector 
-
-recipes.remove(<libvulpes:holoprojector>);
-recipes.addShaped(<libvulpes:holoprojector>,
-[[<minecraft:glass_pane>, <minecraft:beacon>, <minecraft:glass_pane>], 
-[<twilightforest:torchberries>, <minecraft:glowstone_dust>, <twilightforest:torchberries>], 
-[null, <thermalfoundation:material:33>, null]]);
-
-#HeatProof Brick
-recipes.remove(<advancedrocketry:blastbrick>);
-recipes.addShaped(<advancedrocketry:blastbrick>,
-[[<minecraft:magma_cream>, <minecraft:magma_cream>, <forestry:climatiser:1>], 
-[<forestry:climatiser:1>, <forestry:climatiser:1>, <forestry:climatiser:1>], 
-[null, null, null]]);
-
-#AdvRock Seat
-recipes.remove(<advancedrocketry:seat>);
-recipes.addShaped(<advancedrocketry:seat>, [[null, <ore:blockWool>, null], [null, <ore:blockWool>, null], [null, <ore:blockWool>, <ore:blockWool>]]);
 
 #Ender Tanks
 recipes.remove(<enderstorage:ender_storage:1>);
@@ -55,7 +35,7 @@ recipes.addShaped(<enderstorage:ender_storage>,
 
 #rftools builder
 recipes.remove(<rftools:builder>);
-<rftools:builder>.addTooltip(format.darkRed("Quest Reward Item Only"));
+<rftools:builder>.addTooltip(format.darkRed("Disabled"));
 
 #Draconic Celestial manipulator
 recipes.remove(<draconicevolution:celestial_manipulator>);
