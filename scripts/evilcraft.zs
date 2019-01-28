@@ -5,7 +5,7 @@ import mods.jei.JEI;
 import mods.evilcraft.BloodInfuser;
  val blood_chest = <evilcraft:blood_chest>;
 
-BloodInfuser.addRecipe(<evilcraft:undead_sapling>, <liquid:evilcraftblood>*1200, 1, <minecraft:sapling>,50,5);
+BloodInfuser.addRecipe(<evilcraft:undead_sapling>, <liquid:evilcraftblood>*1200, 1, <minecraft:sapling>,50,1);
 
 #recipy removals
 
