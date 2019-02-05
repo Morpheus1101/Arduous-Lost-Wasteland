@@ -70,29 +70,7 @@ recipes.addShaped(<forestry:fabricator>,
 [<minecraft:glass>, <forestry:hardened_machine>, <minecraft:glass>],
 [<minecraft:gold_ingot>, <ironchest:iron_chest:2>, <minecraft:gold_ingot>]]);
 
-<<<<<<< HEAD
-=======
-#Adv Rocketry
 
-#HoloProjector
-
-recipes.remove(<libvulpes:holoprojector>);
-recipes.addShaped(<libvulpes:holoprojector>,
-[[<minecraft:glass_pane>, <minecraft:beacon>, <minecraft:glass_pane>],
-[<twilightforest:torchberries>, <minecraft:glowstone_dust>, <twilightforest:torchberries>],
-[null, <thermalfoundation:material:33>, null]]);
-
-#HeatProof Brick
-recipes.remove(<advancedrocketry:blastbrick>);
-recipes.addShaped(<advancedrocketry:blastbrick>,
-[[<minecraft:magma_cream>, <minecraft:magma_cream>, <forestry:climatiser:1>],
-[<forestry:climatiser:1>, <forestry:climatiser:1>, <forestry:climatiser:1>],
-[null, null, null]]);
-
-#AdvRock Seat
-recipes.remove(<advancedrocketry:seat>);
-recipes.addShaped(<advancedrocketry:seat>, [[null, <ore:blockWool>, null], [null, <ore:blockWool>, null], [null, <ore:blockWool>, <ore:blockWool>]]);
->>>>>>> 7e1ae151695326b55db58b18bdb182cba2ecd1b1
 
 #Ender Tanks
 recipes.remove(<enderstorage:ender_storage:1>);
