@@ -4,21 +4,21 @@
 print("Initializing 'Adv Rocketry.zs'...");
 
 
-#Adv Rocketry 
+#Adv Rocketry
 
-#HoloProjector 
+#HoloProjector
 
 recipes.remove(<libvulpes:holoprojector>);
 recipes.addShaped(<libvulpes:holoprojector>,
-[[<minecraft:glass_pane>, <minecraft:beacon>, <minecraft:glass_pane>], 
-[<twilightforest:torchberries>, <minecraft:glowstone_dust>, <twilightforest:torchberries>], 
+[[<minecraft:glass_pane>, <minecraft:beacon>, <minecraft:glass_pane>],
+[<twilightforest:torchberries>, <minecraft:glowstone_dust>, <twilightforest:torchberries>],
 [null, <thermalfoundation:material:33>, null]]);
 
 #HeatProof Brick
 recipes.remove(<advancedrocketry:blastbrick>);
 recipes.addShaped(<advancedrocketry:blastbrick>,
-[[<minecraft:magma_cream>, <minecraft:magma_cream>, <forestry:climatiser:1>], 
-[<forestry:climatiser:1>, <forestry:climatiser:1>, <forestry:climatiser:1>], 
+[[<minecraft:magma_cream>, <minecraft:magma_cream>,<forestry:ffarm>.withTag({FarmBlock: 7})],
+[<forestry:ffarm>.withTag({FarmBlock: 7}),<forestry:ffarm>.withTag({FarmBlock: 7}), <forestry:ffarm>.withTag({FarmBlock: 7})], 
 [null, null, null]]);
 
 #AdvRock Seat

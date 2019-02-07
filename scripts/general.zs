@@ -59,9 +59,11 @@ vanilla.seeds.addSeed(bonemeal.weight(30));
 
 
 
-#flint'n'steel
+#flint'n'rrl
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<minecraft:flint>, <ore:ingotSteel>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<minecraft:flint>, <botania:manaresource:4>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<minecraft:flint>, <twilightforest:knightmetal_ingot>]);
 
 #Forestry Thermionicfabricator -
 recipes.remove(<forestry:fabricator>);
