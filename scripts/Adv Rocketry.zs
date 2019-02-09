@@ -17,9 +17,9 @@ recipes.addShaped(<libvulpes:holoprojector>,
 #HeatProof Brick
 recipes.remove(<advancedrocketry:blastbrick>);
 recipes.addShaped(<advancedrocketry:blastbrick>,
-[[<minecraft:magma_cream>, <minecraft:magma_cream>,<forestry:ffarm>.withTag({FarmBlock: 7})],
-[<forestry:ffarm>.withTag({FarmBlock: 7}),<forestry:ffarm>.withTag({FarmBlock: 7}), <forestry:ffarm>.withTag({FarmBlock: 7})], 
-[null, null, null]]);
+[[<forestry:alveary.heater>, <minecraft:magma_cream>,<forestry:alveary.heater>],
+[ <minecraft:magma_cream>,<forestry:alveary.heater>, <minecraft:magma_cream>],
+[<forestry:alveary.heater>, <minecraft:magma_cream>,<forestry:alveary.heater>]]);
 
 #AdvRock Seat
 recipes.remove(<advancedrocketry:seat>);
