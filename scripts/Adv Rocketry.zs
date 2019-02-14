@@ -25,7 +25,28 @@ recipes.addShaped(<advancedrocketry:blastbrick>,
 recipes.remove(<advancedrocketry:seat>);
 recipes.addShaped(<advancedrocketry:seat>, [[null, <ore:blockWool>, null], [null, <ore:blockWool>, null], [null, <ore:blockWool>, <ore:blockWool>]]);
 
-#ArcFurnace Steel Fix
-//mods.advancedrocketry.electricArcFurnace.removerecipe
+#AdvRock Seat
+recipes.remove(<advancedrocketry:seat>);
+recipes.addShaped(<advancedrocketry:seat>, [[null, <ore:blockWool>, null], [null, <ore:blockWool>, null], [null, <ore:blockWool>, <ore:blockWool>]]);
 
+#advanced Rocketry recipy removel annd add of trophys maby
+#rocketbuilder
+recipes.remove(<advancedrocketry:rocketbuilder>);
+recipes.addShaped(<advancedrocketry:rocketbuilder>,
+[[<libvulpes:structuremachine>, <advancedrocketry:misc>, <libvulpes:structuremachine>],
+[<twilightforest:trophy>, <advancedrocketry:ic:3>, <twilightforest:trophy:1>],
+[<libvulpes:structuremachine>, <libvulpes:productgear:7>, <libvulpes:structuremachine>]]);
+
+#guidancecomputer
+recipes.remove(<advancedrocketry:guidancecomputer>);
+recipes.addShaped(<advancedrocketry:guidancecomputer>,
+[[<advancedrocketry:ic:1>,<advancedrocketry:misc>,<advancedrocketry:ic:1>],
+[<twilightforest:trophy:5>, <advancedrocketry:ic:2>,<twilightforest:trophy:8>],
+[<advancedrocketry:ic:1>,<twilightforest:trophy:6>,<advancedrocketry:ic:1>]]);
+# fuelingstation
+recipes.remove(<advancedrocketry:fuelingstation>);
+recipes.addShaped(<advancedrocketry:fuelingstation>,
+[[<twilightforest:trophy:2>,  rocketcan,<twilightforest:trophy:3>],
+[<advancedrocketry:ic:5>, <twilightforest:trophy:4>,<libvulpes:productfan:6>],
+[<thermalfoundation:material:359>,<thermalfoundation:material:359>,<thermalfoundation:material:359>]]);
 print("Finished Initializing 'Adv Rocketry.zs'");
